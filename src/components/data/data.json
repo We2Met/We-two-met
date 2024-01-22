@@ -1,0 +1,29 @@
+{
+  "name": "data",
+  "headerData": {
+    "name": "Anshul",
+    "items": [
+      {
+        "title": "Edit"
+      },
+      { "title": "View" }
+    ]
+  },
+  "bodyData": [
+      { "key": "Age", "value": "22" },
+      { "key": "Height", "value": "6'0" },
+      { "key": "Location", "value": "Model Town 3" },
+      { "key": "Gender", "value": "Male" },
+      { "key": "Email", "value": "xyz@gmail.com" },
+      { "key": "Bio", "value": "fgbvcd" },
+      { "key": "Zodiac Sign", "value": "Scorpio" }
+    ],
+  "imgData": [
+    { "src": "https://placehold.co/600x400","id":"1" },
+    { "src": "https://placehold.co/600x400","id":"2" },
+    { "src": "https://placehold.co/600x400","id":"3" },
+    { "src": "https://placehold.co/600x400","id":"4" },
+    { "src": "https://placehold.co/600x400","id":"5" },
+    { "src": "https://placehold.co/600x400","id":"6" }
+  ]
+}
