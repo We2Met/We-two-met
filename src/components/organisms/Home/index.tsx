@@ -8,6 +8,7 @@ import Edit from "../../molecules/Edit";
 const Home = (props: any) => {
   const { serverData } = props;
   const [view, setView] = useState(false);
+  const [userData, setUserData] = useState(serverData?.bodyData);
 
   return (
     <div>
@@ -15,13 +16,13 @@ const Home = (props: any) => {
       {view && (
         <>
           <Images data={serverData?.imgData} />
-          <Detail data={serverData?.bodyData} />
+          <Detail userData={userData} setUserData={setUserData} />
         </>
       )}
       {!view && (
         <>
           <Edit data={serverData?.imgData} />
-          <Detail data={serverData?.bodyData} isEdit={true} />
+          <Detail userData={userData} setUserData={setUserData} isEdit={true} />
         </>
       )}
     </div>

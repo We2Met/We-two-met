@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const Card = ({ item, isEdit = false }: any) => {
+const Card = ({ item, setItemData, isEdit = false }: any) => {
   const [showInp, setShowInp] = useState(false);
   const [value, setValue] = useState(item?.value);
   const clickHandler = () => {
@@ -11,6 +11,7 @@ const Card = ({ item, isEdit = false }: any) => {
 
   const submitHandler = () => {
     setShowInp(false);
+    setItemData({ key: item.key, value: value });
   };
 
   return (
