@@ -17,7 +17,7 @@ const Images = ({ data }: any) => {
     <Slider {...settings}>
       
         {data.map((item: any) => (
-          <img src={item?.src} />
+          <img className="border rounded-md" src={item?.src} />
         ))}
       
     </Slider>

@@ -19,11 +19,11 @@
       { "key": "Zodiac Sign", "value": "Scorpio" }
     ],
   "imgData": [
-    { "src": "https://placehold.co/600x400","id":"1" },
-    { "src": "https://placehold.co/600x400","id":"2" },
-    { "src": "https://placehold.co/600x400","id":"3" },
-    { "src": "https://placehold.co/600x400","id":"4" },
-    { "src": "https://placehold.co/600x400","id":"5" },
-    { "src": "https://placehold.co/600x400","id":"6" }
+    { "src": "https://placehold.co/600x600","id":"1" },
+    { "src": "https://placehold.co/600x600","id":"2" },
+    { "src": "https://placehold.co/600x600","id":"3" },
+    { "src": "https://placehold.co/600x600","id":"4" },
+    { "src": "https://placehold.co/600x600","id":"5" },
+    { "src": "https://placehold.co/600x600","id":"6" }
   ]
 }

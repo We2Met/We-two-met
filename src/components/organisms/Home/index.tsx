@@ -4,6 +4,7 @@ import Detail from "../../molecules/Detail";
 import Images from "../../molecules/Images";
 import ProfileHeader from "../../molecules/ProfileHeader";
 import Edit from "../../molecules/Edit";
+import ViewDetail from "../../molecules/ViewDetail";
 
 const Home = (props: any) => {
   const { serverData } = props;
@@ -13,18 +14,25 @@ const Home = (props: any) => {
   return (
     <div>
       <ProfileHeader data={serverData?.headerData} setView={setView} />
-      {view && (
-        <>
-          <Images data={serverData?.imgData} />
-          <Detail userData={userData} setUserData={setUserData} />
-        </>
-      )}
-      {!view && (
-        <>
-          <Edit data={serverData?.imgData} />
-          <Detail userData={userData} setUserData={setUserData} isEdit={true} />
-        </>
-      )}
+      <div className="bg-[#dddddd] p-3">
+        {view && (
+          <>
+            <Images data={serverData?.imgData} />
+            {/* <Detail userData={userData} setUserData={setUserData} /> */}
+            <ViewDetail />
+          </>
+        )}
+        {!view && (
+          <>
+            <Edit data={serverData?.imgData} />
+            <Detail
+              userData={userData}
+              setUserData={setUserData}
+              isEdit={true}
+            />
+          </>
+        )}
+      </div>
     </div>
   );
 };
