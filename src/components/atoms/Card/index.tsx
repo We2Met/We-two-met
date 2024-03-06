@@ -8,6 +8,7 @@ const Card = ({ item, setItemData, isEdit = false }: any) => {
       setShowInp(true);
     }
   };
+  console.log(item,"hee")
 
   const submitHandler = () => {
     setShowInp(false);

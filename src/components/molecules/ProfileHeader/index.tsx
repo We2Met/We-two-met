@@ -1,15 +1,8 @@
 import React, { useState } from "react";
 
-const ProfileHeader = ({ data, setView }: any) => {
-  const [active, setActive] = useState<number>(0);
-
-  const onClickHandler = (title: any, ind: number) => {
-    setActive(ind);
-    if (title === "View") {
-      setView(true);
-    } else {
-      setView(false);
-    }
+const ProfileHeader = ({ data, active, setActive }: any) => {
+  const onClickHandler = (index: any) => {
+    setActive(index);
   };
 
   return (
@@ -19,7 +12,7 @@ const ProfileHeader = ({ data, setView }: any) => {
       </div>
       <div className="flex justify-between my-2 m-10">
         {data.items.map((item: any, ind: number) => (
-          <a onClick={() => onClickHandler(item.title, ind)}>
+          <a onClick={() => onClickHandler(ind)}>
             <span
               className={`${
                 ind === active && "border-b-2 border-red text-red-500"

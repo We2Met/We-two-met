@@ -1,0 +1,98 @@
+{ 
+    
+    "name": "data",
+    "headerData": {
+      "name": "Anshul",
+      "items": [
+        {
+          "title": "Received"
+        },
+        { "title": "Pool" },
+        { "title": "Likes" }
+      ]
+    },
+    "usersData":{
+        "poolData":[
+            {"id": 0,
+            "attributes": {
+              "name": "Harshit",
+              "email": "mharhit323@gmail.com",
+              "gender": "male",
+              "bio": "TEst",
+              "age": 12,
+              "height": 6,
+              "zodiac_sign": "aries",
+              "createdAt": "2024-01-29T17:50:27.764Z",
+              "updatedAt": "2024-01-29T17:50:28.969Z",
+              "publishedAt": "2024-01-29T17:50:28.965Z"
+            },
+            "imgData": [
+              { "src": "https://placehold.co/600x400","id":"1" },
+              { "src": "https://placehold.co/600x400","id":"2" },
+              { "src": "https://placehold.co/600x400","id":"3" },
+              { "src": "https://placehold.co/600x400","id":"4" },
+              { "src": "https://placehold.co/600x400","id":"5" },
+              { "src": "https://placehold.co/600x400","id":"6" }
+            ]
+            },
+            {"id": 1,
+            "attributes": {
+              "name": "Anshul",
+              "email": "mharhit323@gmail.com",
+              "gender": "male",
+              "bio": "TEst",
+              "age": 12,
+              "height": 6,
+              "zodiac_sign": "aries",
+              "createdAt": "2024-01-29T17:50:27.764Z",
+              "updatedAt": "2024-01-29T17:50:28.969Z",
+              "publishedAt": "2024-01-29T17:50:28.965Z"
+            },
+            "imgData": [
+              { "src": "https://placehold.co/600x400","id":"1" },
+              { "src": "https://placehold.co/600x400","id":"2" },
+              { "src": "https://placehold.co/600x400","id":"3" },
+              { "src": "https://placehold.co/600x400","id":"4" },
+              { "src": "https://placehold.co/600x400","id":"5" },
+              { "src": "https://placehold.co/600x400","id":"6" }
+            ]
+            },
+            {"id": 2,
+            "attributes": {
+              "name": "Kartikey",
+              "email": "mharhit323@gmail.com",
+              "gender": "male",
+              "bio": "TEst",
+              "age": 12,
+              "height": 6,
+              "zodiac_sign": "aries",
+              "createdAt": "2024-01-29T17:50:27.764Z",
+              "updatedAt": "2024-01-29T17:50:28.969Z",
+              "publishedAt": "2024-01-29T17:50:28.965Z"
+            },
+            "imgData": [
+              { "src": "https://placehold.co/600x400","id":"1" },
+              { "src": "https://placehold.co/600x400","id":"2" },
+              { "src": "https://placehold.co/600x400","id":"3" },
+              { "src": "https://placehold.co/600x400","id":"4" },
+              { "src": "https://placehold.co/600x400","id":"5" },
+              { "src": "https://placehold.co/600x400","id":"6" }
+            ]
+            }
+        ],
+        "match":{
+            "status":false,
+            "data":{}
+        },
+        "received":{
+            "status":false,
+            "data":[]
+        },
+        "like":{
+            "status":true,
+            "data":{}
+        }
+        }
+
+    }
+

@@ -9,15 +9,22 @@
       { "title": "View" }
     ]
   },
-  "bodyData": [
-      { "key": "Age", "value": "22" },
-      { "key": "Height", "value": "6'0" },
-      { "key": "Location", "value": "Model Town 3" },
-      { "key": "Gender", "value": "Male" },
-      { "key": "Email", "value": "xyz@gmail.com" },
-      { "key": "Bio", "value": "fgbvcd" },
-      { "key": "Zodiac Sign", "value": "Scorpio" }
-    ],
+  "bodyData": 
+    {"id": 1,
+    "attributes": {
+      "name": "Harshit",
+      "email": "mharhit323@gmail.com",
+      "gender": "male",
+      "bio": "TEst",
+      "age": 12,
+      "height": 6,
+      "zodiac_sign": "aries",
+      "createdAt": "2024-01-29T17:50:27.764Z",
+      "updatedAt": "2024-01-29T17:50:28.969Z",
+      "publishedAt": "2024-01-29T17:50:28.965Z"
+    }
+  }
+    ,
   "imgData": [
     { "src": "https://placehold.co/600x600","id":"1" },
     { "src": "https://placehold.co/600x600","id":"2" },
